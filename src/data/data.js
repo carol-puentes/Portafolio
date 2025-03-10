@@ -26,7 +26,7 @@ export const dataPortfolio = [
       title: "Triqui",
       description: "Este proyecto se basa en un tradicional juego movil de triqui con temática de spiderman ",
       image: triqui,
-      repo: "https://github.com/VICDUR/Herramientas-Archiv-stica",
+      repo: "https://github.com/carol-puentes/TRIQUI",
     },
   ];
   
