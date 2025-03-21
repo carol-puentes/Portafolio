@@ -20,9 +20,16 @@ export const dataPortfolio = [
       url: "https://generadordedcolores.netlify.app",
       repo: "",
     },
-
     { 
       id: 3,
+      title: "Wonders of the wordl",
+      description: "Este es un juego simple de arrastrar la caracteristicas de la maravilla del mundo a su imagen",
+      image: paleta,
+      url: "https://ileusco.netlify.app",
+      repo: "",
+    },
+    { 
+      id: 4,
       title: "Triqui",
       description: "Este proyecto se basa en un tradicional juego movil de triqui con temática de spiderman ",
       image: triqui,
