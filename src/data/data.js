@@ -1,6 +1,7 @@
 import paleta from '../assets/paleta.png'
 import landding from '../assets/landing.png'
 import triqui from '../assets/triqui.png'
+import wonders from '../assets/Wonders.png'
 
 export const dataPortfolio = [
     { 
@@ -24,7 +25,7 @@ export const dataPortfolio = [
       id: 3,
       title: "Wonders of the wordl",
       description: "Este es un juego simple de arrastrar la caracteristicas de la maravilla del mundo a su imagen",
-      image: paleta,
+      image: wonders,
       url: "https://ileusco.netlify.app",
       repo: "",
     },
