@@ -31,7 +31,7 @@ const Nav = () => {
                         <a className="nav-link" href="#welcome-section">{t('nav.about')}</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#tecnologias">{t('nav.technologies')}</a>
+                        <a className="nav-link" href="#tecnologis">{t('nav.technologies')}</a>
                     </li>
                     <li className="nav-item">
                         <a className="nav-link" href="#proyectos">{t('nav.projects')}</a>
