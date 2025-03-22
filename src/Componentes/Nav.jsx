@@ -1,50 +1,60 @@
-import logo from '../assets/logo.svg'
-import '../css/main.css'
-<script src="/src/script.js"> </script>
-
-import cv from '../CV/Carol_Puentes_CV.pdf'
+import logo from '../assets/logo.svg';
+import '../css/main.css';
+import { useTranslation } from 'react-i18next';
+import { useState } from 'react';
 
 const Nav = () => {
+    const { t, i18n } = useTranslation();
+    const [showDropdown, setShowDropdown] = useState(false);
+
+    const changeLanguage = (lng) => {
+        i18n.changeLanguage(lng);
+        setShowDropdown(false); // Cierra el menú después de seleccionar un idioma
+    };
+
     return (
-
-        <nav class="navbar navbar-expand-lg navbar-light">
-
-            <div class="logo">
-                {/* Insercion de logo */}
-                <img src={logo} alt="logo" style={{ "width": "20%", "height": "100px" }} />
-                <i className='nombre'>CAROL PUENTES</i>
+        <nav className="navbar navbar-expand-lg navbar-light">
+            <div className="logo">
+                <img src={logo} alt="logo" style={{ width: "20%", height: "100px" }} />
+                <i className="nombre">CAROL PUENTES</i>
             </div>
 
-
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+                <span className="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#welcome-section">Sobre mi  <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#tecnologis">Tecnologias</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#proyectos">Mis proyectos</a>
-                    </li>
-
-
+            <div className="collapse navbar-collapse" id="navbarNav">
+                <ul className="navbar-nav">
                     <li className="nav-item">
-                        <a className="nav-link" href={cv} download>
-                            CV
-                        </a>
+                        <a className="nav-link" href="#welcome-section">{t('nav.about')}</a>
+                    </li>
+                    <li className="nav-item">
+                        <a className="nav-link" href="#tecnologias">{t('nav.technologies')}</a>
+                    </li>
+                    <li className="nav-item">
+                        <a className="nav-link" href="#proyectos">{t('nav.projects')}</a>
                     </li>
 
+                    {/* Selector de idioma con flecha animada */}
+                    <li className="nav-item language-container">
+                        <button 
+                            className="language-btn" 
+                            onClick={() => setShowDropdown(!showDropdown)}
+                        >
+                            🌎  <span className={`arrow ${showDropdown ? 'open' : ''}`}>▼</span>
+                        </button>
 
-
+                        {showDropdown && (
+                            <div className="language-dropdown">
+                                <button onClick={() => changeLanguage('es')}>🇪🇸 Español</button>
+                                <button onClick={() => changeLanguage('en')}>🇬🇧 English</button>
+                            </div>
+                        )}
+                    </li>
                 </ul>
             </div>
         </nav>
+    );
+};
 
-    )
-}
 export default Nav;

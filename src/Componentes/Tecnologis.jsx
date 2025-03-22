@@ -1,11 +1,12 @@
 import { Element } from 'react-scroll';
-
+import { useTranslation } from 'react-i18next';
 
 const Tecnologis = () => {
+      const { t } = useTranslation();
     return (
         <div id="tecnologis">
 
-            <h1 className="tecnologis-text" >STACK DE TECNOLOGÍA</h1>
+            <h1 className="tecnologis-text" >{t('tecnologis.title')}</h1>
             <div className="container-icons">
                 <div className="icons-stack">
 

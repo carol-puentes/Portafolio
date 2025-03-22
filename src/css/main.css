@@ -55,6 +55,59 @@
 }
 
 
+/* ---------------- */
+/* NAV INTERNACIONALIZACION */
+/* ---------------- */
+.language-container {
+    position: relative;
+}
+
+.language-btn {
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 8px 12px;
+    display: flex;
+    align-items: center;
+    gap: 5px; /* Espaciado entre el texto y la flecha */
+}
+
+.arrow {
+    transition: transform 0.3s ease;
+}
+
+.arrow.open {
+    transform: rotate(180deg); /* Gira la flecha cuando se despliega */
+}
+
+.language-dropdown {
+    position: absolute;
+    top: 35px;
+    right: 0;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 120px;
+    text-align: center;
+    z-index: 100;
+}
+
+.language-dropdown button {
+    background: none;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 14px;
+    display: block;
+}
+
+.language-dropdown button:hover {
+    background: #f0f0f0;
+}
+
 
 /* ---------------- */
 /* SECCIÓN DE PRESENTACIÓN */
@@ -303,6 +356,30 @@ p {
         gap: 10px;
     }
 
+    .language-container {
+        width: 100%;
+        text-align: center;
+    }
+
+    .language-btn {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .language-dropdown {
+        position: relative;
+        width: 100%;
+        box-shadow: none;
+        border: none;
+    }
+
+    .language-dropdown button {
+        padding: 10px;
+        width: 100%;
+    }
+
+    
+
 
     #welcome-section {
         padding: 60px 5%;
@@ -334,6 +411,7 @@ p {
     .cards-container {
         flex: 1 1 90%; /* Ocupa más espacio en pantallas pequeñas */
     }
+
 
 
 }

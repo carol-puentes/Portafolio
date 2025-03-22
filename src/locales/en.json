@@ -1,0 +1,42 @@
+{
+    "about": {
+      "name": "Carol Stefania Puentes Motta",
+      "title": "Software Engineer",
+      "description": "Hi! I am a software engineer focused on web development, passionate about transforming ideas into impactful digital experiences..."
+    },
+    "nav": {
+      "about": "About Me",
+      "projects": "My Projects",
+      "technologies": "Technologies",
+      "cv": "Download CV"
+    },
+    "tecnologis": {
+      "title": "TECHNOLOGY STACK"
+    },
+    "projects": {
+      "title": "MY PROJECTS",
+      "viewProject": "View Project",
+      "viewCode": "View Code",
+
+      "project1": {
+        "title": "Landing Page",
+        "description": "This independent project is a landing page for a fast food store."
+      },
+      "project2": {
+        "title": "Color palette",
+        "description": "This project consists of a color palette generator."
+      },
+      "project3": {
+        "title": "Wonders of the World",
+        "description": "This is a simple game in which you drag the features of a Wonder of the World onto its image."
+      },
+      "project4": {
+        "title": "Tic-tac-toe",
+        "description": "This project is based on the traditional tic-tac-toe mobile game, but with a Spider-Man theme."
+      }
+
+
+
+    }
+  }
+  

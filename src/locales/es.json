@@ -1,0 +1,40 @@
+{
+    "about": {
+      "name": "Carol Stefania Puentes Motta",
+      "title": "Ingeniera de Software",
+      "description": "¡Hola! Soy ingeniera de software con énfasis en desarrollo web, apasionada por transformar ideas en experiencias digitales impactantes..."
+    },
+    "nav": {
+      "about": "Sobre Mí",
+      "projects": "Mis Proyectos",
+      "technologies": "Tecnologías",
+      "cv": "Descargar CV"
+    },
+    "tecnologis": {
+      "title": "PILA DE TECNOLOGÍA"
+    },
+    "projects": {
+      "title": "MIS PROYECTOS",
+      "viewProject": "Ver Proyecto",
+      "viewCode": "Ver Código",
+      
+      "project1": {
+        "title": "Pagina de destino",
+        "description": "Este proyecto freelance es un landding pages para una tienda de comida rápida  "
+      },
+      "project2": {
+        "title": "Paleta de colores",
+        "description": "Este proyecto consiste en un generador de paletas de colores."
+      },
+      "project3": {
+        "title": "Maravillas del mundo",
+        "description": "Este es un juego sencillo en el que arrastras las características de una Maravilla del Mundo sobre su imagen."
+      },
+      "project4": {
+        "title": "Triqui",
+        "description": "Este proyecto está basado en el tradicional juego móvil de Triqui, pero con temática de Spider-Man."
+      }
+
+    }
+  }
+  
