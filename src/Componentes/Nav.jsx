@@ -3,6 +3,8 @@ import '../css/main.css';
 import { useTranslation } from 'react-i18next';
 import { useState } from 'react';
 
+import cv from '../CV/Carol_Puentes_CV.pdf'
+
 const Nav = () => {
     const { t, i18n } = useTranslation();
     const [showDropdown, setShowDropdown] = useState(false);
@@ -33,6 +35,12 @@ const Nav = () => {
                     </li>
                     <li className="nav-item">
                         <a className="nav-link" href="#proyectos">{t('nav.projects')}</a>
+                    </li>
+                    
+                    <li className="nav-item">
+                        <a className="nav-link" href={cv} download>
+                            CV
+                        </a>
                     </li>
 
                     {/* Selector de idioma con flecha animada */}
