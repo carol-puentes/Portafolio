@@ -2,6 +2,7 @@ import paleta from '../assets/paleta.png'
 import landding from '../assets/landing.png'
 import triqui from '../assets/triqui.png'
 import wonders from '../assets/Wonders.png'
+import independiente from '../assets/independiente.png'
 
 export const dataPortfolio = [
  
@@ -36,6 +37,14 @@ export const dataPortfolio = [
       description: "projects.project4.description",
       image: triqui,
       repo: "https://github.com/carol-puentes/TRIQUI",
+    },
+    { 
+      id: 5,
+      title: "projects.project5.title", // Clave de traducción
+      description: "projects.project5.description",
+      image: independiente,
+      url: "https://independite.netlify.app",
+      repo:"",
     },
   
   ];

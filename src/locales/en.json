@@ -33,9 +33,11 @@
       "project4": {
         "title": "Tic-tac-toe",
         "description": "This project is based on the traditional tic-tac-toe mobile game, but with a Spider-Man theme."
+      },
+      "project5": {
+        "title": "Login-Register",
+        "description": "This project is based on a Firebase-validated login and registration framework powered by React-Native."
       }
-
-
 
     }
   }

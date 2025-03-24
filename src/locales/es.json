@@ -33,6 +33,10 @@
       "project4": {
         "title": "Triqui",
         "description": "Este proyecto está basado en el tradicional juego móvil de Triqui, pero con temática de Spider-Man."
+      },
+      "project5": {
+        "title": "Inicio de sesión/Registro",
+        "description": "Este proyecto se basa en un framework de inicio de sesión y registro validado por Firebase y con tecnología React Native."
       }
 
     }
