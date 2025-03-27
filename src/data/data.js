@@ -3,6 +3,7 @@ import landding from '../assets/landing.png'
 import triqui from '../assets/triqui.png'
 import wonders from '../assets/Wonders.png'
 import independiente from '../assets/independiente.png'
+import formulario from '../assets/formulario.png'
 
 export const dataPortfolio = [
  
@@ -44,6 +45,14 @@ export const dataPortfolio = [
       description: "projects.project5.description",
       image: independiente,
       url: "https://independite.netlify.app",
+      repo:"",
+    },
+    { 
+      id: 6,
+      title: "projects.project6.title", // Clave de traducción
+      description: "projects.project6.description",
+      image: formulario,
+      url: "https://formulario-registro-interactivo.netlify.app",
       repo:"",
     },
   

@@ -37,8 +37,11 @@
       "project5": {
         "title": "Login-Register",
         "description": "This project is based on a Firebase-validated login and registration framework powered by React-Native."
+      },
+      "project6": {
+        "title": "Interactive Registration Form",
+        "description": "This is a Registration Form with HTML and CSS to collect user data in an accessible way."
       }
-
     }
   }
   

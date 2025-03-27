@@ -37,6 +37,10 @@
       "project5": {
         "title": "Inicio de sesión/Registro",
         "description": "Este proyecto se basa en un framework de inicio de sesión y registro validado por Firebase y con tecnología React Native."
+      },
+      "project6": {
+        "title": "Formulario de Registro Interactivo",
+        "description": "Este es un Formulario de Registro con HTML y CSS para recopilar datos de usuarios de forma accesible."
       }
 
     }
