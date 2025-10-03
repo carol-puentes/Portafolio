@@ -12,12 +12,14 @@ const About = () => {
       </div>
 
       <div id="personal-inf">
-        <h1>{t('about.name')}</h1>
-        <h2>{t('about.title')}</h2>
-        <p>{t('about.description')}</p>
+        <h1  style={{color:"#FFFFFF"}}>{t('about.name')}</h1>
+        <h2  style={{color:"#34495E"}} >{t('about.title')}</h2>
+        <p style={{color:"#4A4A4A"}}>{t('about.description')}</p>
       </div>
     </div>
   );
 };
+
+
 
 export default About;
