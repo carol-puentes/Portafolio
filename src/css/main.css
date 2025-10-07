@@ -417,6 +417,16 @@ p {
 }
 
 @media (max-width: 480px) {
+    #header-img {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 70%;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
     #welcome-section {
         padding: 50px 5%;
         padding-top: 35vw;
