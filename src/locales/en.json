@@ -41,6 +41,14 @@
       "project6": {
         "title": "Interactive Registration Form",
         "description": "This is a Registration Form with HTML and CSS to collect user data in an accessible way."
+      },
+      "project7": {
+        "title": "Agricultural Monitoring System Prototyping",
+        "description": "This prototype is a mobile app developed with React Native for monitoring salad tomato crops."
+      },
+       "project8": {
+        "title": "React Native library app prototype",
+        "description": "This prototype is a student project developed with React Native for library management."
       }
     }
   }

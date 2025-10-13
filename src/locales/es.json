@@ -44,8 +44,15 @@
       "project6": {
         "title": "Formulario de Registro Interactivo",
         "description": "Este es un Formulario de Registro con HTML y CSS para recopilar datos de usuarios de forma accesible."
+      },
+      "project7": {
+        "title": "Prototipado de sistema de monitoreo agrícola",
+        "description": "Este prototipo corresponde a una aplicación móvil desarrollada con React Native para el monitoreo de cultivos de tomate tipo ensalada."
+      },
+      "project8": {
+        "title": "Prototipo de app React Native para biblioteca",
+        "description": "Este prototipo corresponde a un proyecto estudiantil desarrollado con React Native para la gestión de una biblioteca."
       }
-
     }
   }
   
