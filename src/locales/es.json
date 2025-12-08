@@ -1,11 +1,7 @@
 {
     "about": {
-      "name": "Carol Stefania Puentes Motta",
-      "title": "Ingeniera de Software",
-      
-
-      "description": "¡Hola! Soy ingeniera de software junior con formación en desarrollo Full Stack. Me destaco por ser proactiva, analítica y con alta capacidad de adaptación. Tengo un enfoque en la creación de soluciones funcionales e intuitivas que mejoran la experiencia del usuario. Disfruto trabajar en equipo, asumir nuevos retos y aprender continuamente para aportar valor tanto en frontend como en backend."
-
+      "title": "Hola, Soy Carol. Mucho gusto",    
+      "description":"Ingeniera de software con enfoque en desarrollo Full Stack. Me caracterizo por ser proactiva, analítica y con una gran capacidad de adaptación. Disfruto crear soluciones funcionales, intuitivas y pensadas en las personas, combinando un buen diseño en el frontend con una lógica sólida en el backend. Me gusta asumir nuevos retos, aprender continuamente y aportar valor en cada proyecto, ya sea trabajando en equipo o de manera autónoma."
     },
     "nav": {
       "about": "Sobre Mí",

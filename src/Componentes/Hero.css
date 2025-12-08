@@ -1,0 +1,113 @@
+.hero-container {
+  position: relative;
+  height: 80vh;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  box-sizing: border-box;
+  background-image: url("../assets/fondo-hero.png");
+}
+
+.image-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 1rem;
+
+  /* Nuevo: espacio lateral para que la imagen no toque los textos */
+  padding: 0 120px;
+  box-sizing: border-box;
+}
+
+.image-wrapper img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;      
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  transition: all 0.5s ease;
+}
+
+/* Divider */
+.divider {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: #ffffff00;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: all 0.5s ease;
+  z-index: 2;
+}
+
+/* Handle */
+.handle {
+  position: absolute;
+  top: 50%;
+  width: 30px;
+  height: 30px;
+  background: #e10b0b00;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  transition: all 0.5s ease;
+  z-index: 3;
+}
+
+/* Textos */
+.hero-text {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #fff;
+  font-weight: bold;
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.7);
+  z-index: 4;
+  font-size: 1.2rem;
+}
+
+.left-text {
+  left: 2rem;   /* espacio claro */
+}
+
+.right-text {
+  right: 2rem;
+}
+
+/* RESPONSIVE */
+@media (max-width: 1024px) {
+  .image-wrapper {
+    padding: 0 20px; /* menos padding */
+  }
+}
+
+@media (max-width: 768px) {
+  .image-wrapper {
+    padding: 0 40px; /* todavía menos */
+  }
+
+  .hero-text {
+    font-size: 1rem;
+  }
+
+  .handle {
+    width: 25px;
+    height: 25px;
+  }
+}
+
+@media (max-width: 480px) {
+  .image-wrapper {
+    padding: 0 20px; /* muy pequeño pero mantiene espacio para el texto */
+  }
+
+  .hero-text {
+    font-size: 0.85rem;
+  }
+}

@@ -1,0 +1,107 @@
+.hero-container {
+  position: relative;
+  width: 100%;
+  height: 80vh;
+  overflow: hidden;
+  background-image: url("../assets/fondo-hero.png");
+    display: flex;
+      align-items: center;
+  justify-content: center;
+}
+
+.image-wrapper {
+   background-color: aqua;
+  position: relative;
+   width: 80%;
+  height: 100%;
+}
+
+.image {
+  position: absolute;
+  top: 0;
+  height: 700px;
+  width: 600px;
+  object-fit: cover;
+}
+
+.image-left {
+  clip-path: inset(0 50% 0 0);
+}
+
+.image-right {
+  clip-path: inset(0 0 0 50%);
+}
+
+.image-left,
+.image-right,
+.divider,
+.handle {
+  transition: all 0.4s ease;
+}
+
+
+.slider {
+  position: absolute;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60%;
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2rem;
+  font-weight: 600;
+  color: black;
+}
+
+.left-text {
+  left: 5%;
+}
+
+.right-text {
+  right: 5%;
+}
+
+
+.image-left,
+.image-right,
+.divider,
+.handle {
+  transition: all 0.5s ease; /* transición suave al volver */
+}
+
+
+@media (max-width: 989px) {
+  .image-wrapper {
+    background-color: aqua;
+}
+
+.image {
+  position: absolute;
+  top: 0;
+  height: 90%;
+  width: auto;
+  object-fit: cover;
+}
+
+}
+
+@media (max-width: 768px) {
+  .image-wrapper {
+    background-color: rgb(255, 17, 0);
+}
+}
+
+
+
+
+
+
+
+
+
+
+

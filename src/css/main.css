@@ -109,84 +109,6 @@
 }
 
 
-/* ---------------- */
-/* SECCIÓN DE PRESENTACIÓN */
-/* ---------------- */
-
-#welcome-section {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 40px;
-    padding: 120px 10%;
-    background: linear-gradient(90deg, #A8D8FF, #B8E8D2);
-    height: 100vh;
-}
-
-
-
-/* ---------------- */
-/* IMAGEN DE PERFIL */
-/* ---------------- */
-
-.me-pictures {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    max-width: 300px;
-}
-
-
-#header-img {
-    width: 100%;
-    height: auto;
-    max-height: 400px;
-    object-fit: cover;
-    border-radius: 50%;
-    transition: transform 0.3s ease-in-out;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
-}
-
-#header-img:hover {
-    transform: scale(1.05);
-}
-
-/* ---------------- */
-/* INFORMACIÓN PERSONAL */
-/* ---------------- */
-
-#personal-inf {
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-    text-align: justify;
-    width: 100%;
-    max-width: 500px;
-}
-
-h1 {
-    font-size: 2.5rem;
-    font-weight: bold;
-    color: #2c3e50;
-}
-
-
-h2 {
-    font-size: 1.5rem;
-    font-weight: normal;
-    color: #333333;
-}
-
-p {
-    font-size: 1.1rem;
-    line-height: 1.6;
-    color: #444;
-}
-
-
 
 /* TECNOLOGIS */
 
@@ -307,35 +229,14 @@ p {
 }
 
 
+
+
+
 /* ---------------- */
 /* RESPONSIVE DESIGN */
 /* ---------------- */
 
 @media (max-width: 989px) {
-
-    #welcome-section {
-        flex-direction: column;
-        text-align: center;
-        padding: 80px 5%;
-    }
-
-    .me-pictures {
-        max-width: 200px;
-    }
-
-    #personal-inf {
-        text-align: center;
-        width: 90%;
-    }
-
-    h1 {
-        font-size: 2rem;
-    }
-
-    h2 {
-        font-size: 1.2rem;
-    }
-
     .icons-stack {
         display: grid;
         grid-template-columns: repeat(2, 2fr);
@@ -377,27 +278,6 @@ p {
         padding: 10px;
         width: 100%;
     }
-
-    
-
-
-    #welcome-section {
-        padding: 60px 5%;
-    }
-
-
-    .me-pictures {
-        max-width: 180px;
-    }
-
-    h1 {
-        font-size: 1.8rem;
-    }
-
-    h2 {
-        font-size: 1rem;
-    }
-
     .icons-stack {
         display: grid;
         grid-template-columns: repeat(1, 2fr);
@@ -413,41 +293,6 @@ p {
     }
 
 
-
-}
-
-@media (max-width: 480px) {
-    #header-img {
-    width: 100%;
-    height: auto;
-    max-height: 400px;
-    object-fit: cover;
-    border-radius: 70%;
-    transition: transform 0.3s ease-in-out;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
-}
-
-    #welcome-section {
-        padding: 50px 5%;
-        padding-top: 35vw;
-
-    }
-
-    .me-pictures {
-        max-width: 150px;
-    }
-
-    h1 {
-        font-size: 1.5rem;
-    }
-
-    h2 {
-        font-size: 0.9rem;
-    }
-
-    p {
-        font-size: 1rem;
-    }
 }
 
 @media (max-width: 400px) {
@@ -457,27 +302,10 @@ p {
         height: 180vw;
 
     }
-
 }
 
 
 @media (orientation: landscape) and (max-width: 1100px) {
-    #welcome-section {
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        height: 55vw;
-    }
-
-    .me-pictures {
-        max-width: 250px;
-    }
-
-    #personal-inf {
-        text-align: left;
-        max-width: 50%;
-    }
-
     .icons-stack {
         display: grid;
         grid-template-columns: repeat(2, 2fr);
@@ -491,14 +319,6 @@ p {
 
 
 @media (orientation: landscape) and (max-width: 768px) {
-    #welcome-section {
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        height: 90vw;
-    }
-
-
     .icons-stack {
         display: grid;
         grid-template-columns: repeat(2, 2fr);

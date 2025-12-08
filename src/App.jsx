@@ -4,15 +4,21 @@ import About from './Componentes/About';
 import Tecnologis from './Componentes/Tecnologis';
 import Proyectos from './Componentes/Proyectos';
 
+import Hero from './Componentes/Hero';
+
 function App() {
   return (
     <Router>
       <Nav />
+      
       <Routes>
-        <Route path="/" element={<About />} />
+        <Route path="/" element={<Hero/>} />
       </Routes>
+      <About />
+      
       <Tecnologis/>
       <Proyectos />
+ 
       
     </Router>
   );
