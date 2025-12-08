@@ -1,5 +1,5 @@
 import { useRef } from "react";
-import '../css/Hero.css';
+import '../css/hero.css';
 
 import izquierda from '../assets/derecha.png';
 import derecha from '../assets/izquierda.png';
