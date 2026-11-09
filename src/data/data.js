@@ -6,6 +6,7 @@ import independiente from '../assets/independiente.png'
 import formulario from '../assets/formulario.png'
 import tomato from '../assets/tomato.png'
 import libro from '../assets/libro.png'
+import landing from '../assets/round8.png'
 
 export const dataPortfolio = [
  
@@ -71,6 +72,14 @@ export const dataPortfolio = [
       description: "projects.project8.description",
       image: libro,
       url: " https://www.figma.com/proto/NIovTzRcKH4U8aKZVK4Oz0/Untitled?node-id=1-3&starting-point-node-id=1%3A3&t=esLz6oclFifZz4tj-1",
+      repo:"",
+    },
+    {
+      id:9,
+      title: "projects.project9.title", // Clave de traducción
+      description: "projects.project9.description",
+      image: landing,
+      url: "https://roundocho.netlify.app",
       repo:"",
     }
    

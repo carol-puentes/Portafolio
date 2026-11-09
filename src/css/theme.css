@@ -1,0 +1,59 @@
+/* =========================================================
+   TEMA GLOBAL — paleta y tipografía
+   Papel + tinta, con azul denim y ocre (tomados del hero)
+   ========================================================= */
+:root {
+  --paper: #f5f1e8;
+  --paper-2: #ece5d6;
+  --card: #fbf9f4;
+  --ink: #1c1b19;
+  --ink-soft: #5c574e;
+  --denim: #2f3e5c;
+  --denim-deep: #1f2a40;
+  --ochre: #c4952b;
+  --ochre-soft: #f1e3c0;
+  --line: rgba(28, 27, 25, 0.12);
+
+  --font-display: 'Fraunces', Georgia, serif;
+  --font-body: 'Manrope', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+
+  --radius: 14px;
+  --header-h: 72px;
+}
+
+html { scroll-behavior: smooth; scroll-padding-top: var(--header-h); }
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+a,
+a:hover,
+a:focus { text-decoration: none; }
+a { color: var(--denim); }
+a:hover { color: var(--ochre); }
+
+::selection { background: var(--ochre-soft); color: var(--ink); }
+
+.section-title {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: clamp(1.8rem, 3.5vw, 2.6rem);
+  letter-spacing: -0.02em;
+  color: var(--ink);
+  margin-bottom: 0.5rem;
+}
+
+.section-eyebrow {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ochre);
+  margin-bottom: 0.75rem;
+}

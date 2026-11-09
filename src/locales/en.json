@@ -1,4 +1,12 @@
 {
+    "hero": {
+      "eyebrow": "Software engineer · Full Stack",
+      "role": "Developer",
+      "lead": "I build clear, useful software — from the backend to the interface — designed around the people who use it.",
+      "ctaProjects": "See projects",
+      "photo": "Photo",
+      "watercolor": "Watercolor"
+    },
     "about": {
       
       "title": "Software Engineer",
@@ -49,6 +57,10 @@
        "project8": {
         "title": "React Native library app prototype",
         "description": "This prototype is a student project developed with React Native for library management."
+      },
+      "project9": {
+        "title": "Round 8",
+        "description": "Academic boxing landing page built with modular HTML, CSS and JavaScript. Includes a comments section powered by a Node.js backend using Netlify Functions and Netlify Database."
       }
     }
   }

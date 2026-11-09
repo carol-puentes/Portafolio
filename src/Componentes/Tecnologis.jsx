@@ -6,13 +6,14 @@ const Tecnologis = () => {
     return (
         <div id="tecnologis">
 
-            <h1 className="tecnologis-text" >{t('tecnologis.title')}</h1>
+            <span className="section-eyebrow">02 — {t('nav.technologies')}</span>
+            <h2 className="section-title">{t('tecnologis.title')}</h2>
             <div className="container-icons">
                 <div className="icons-stack">
 
-                    <img className='iconos' src="https://skillicons.dev/icons?i=html,css,js,react" alt="Frontend" />
-                    <img className='iconos' src="https://skillicons.dev/icons?i=nodejs,php,mysql,postgres" alt="Backend & BD" />
-                    <img className='iconos' src="https://skillicons.dev/icons?i=vscode,github,notion,figma" alt="Herramientas" />
+                    <img className='iconos' src="https://skillicons.dev/icons?i=html,css,js,react&theme=light" alt="Frontend" />
+                    <img className='iconos' src="https://skillicons.dev/icons?i=nodejs,php,mysql,postgres&theme=light" alt="Backend & BD" />
+                    <img className='iconos' src="https://skillicons.dev/icons?i=vscode,github,notion,figma&theme=light" alt="Herramientas" />
 
 
                     <div className='iconos-group'>

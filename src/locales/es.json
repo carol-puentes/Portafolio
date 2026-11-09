@@ -1,4 +1,12 @@
 {
+    "hero": {
+      "eyebrow": "Ingeniera de software · Full Stack",
+      "role": "Desarrolladora",
+      "lead": "Construyo software claro y útil — del backend a la interfaz — pensado en las personas que lo usan.",
+      "ctaProjects": "Ver proyectos",
+      "photo": "Foto",
+      "watercolor": "Acuarela"
+    },
     "about": {
       "title": "Hola, Soy Carol. Mucho gusto",    
       "description":"Ingeniera de software con enfoque en desarrollo Full Stack. Me caracterizo por ser proactiva, analítica y con una gran capacidad de adaptación. Disfruto crear soluciones funcionales, intuitivas y pensadas en las personas, combinando un buen diseño en el frontend con una lógica sólida en el backend. Me gusta asumir nuevos retos, aprender continuamente y aportar valor en cada proyecto, ya sea trabajando en equipo o de manera autónoma."
@@ -48,6 +56,10 @@
       "project8": {
         "title": "Prototipo de app React Native para biblioteca",
         "description": "Este prototipo corresponde a un proyecto estudiantil desarrollado con React Native para la gestión de una biblioteca."
+      },
+      "project9": {
+        "title": "Round 8",
+        "description": "Landing page académica sobre boxeo, desarrollada con HTML, CSS y JavaScript de forma modular. Incluye una sección de comentarios con backend en Node.js mediante Netlify Functions y Netlify Database."
       }
     }
   }
