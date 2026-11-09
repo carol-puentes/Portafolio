@@ -73,7 +73,7 @@ const Nav = () => {
               ))}
             </div>
 
-            <a className="btn-cv" href={cv} download onClick={close}>
+            <a className="btn-cv" href={cv} download="Carol_Puentes_CV.pdf" onClick={close}>
               {t('nav.cv')}
               <span aria-hidden="true">↓</span>
             </a>

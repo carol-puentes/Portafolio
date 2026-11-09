@@ -21,7 +21,7 @@ export default function Hero() {
 
           <div className="hero__ctas">
             <a href="#proyectos" className="btn-primary">{t('hero.ctaProjects')}</a>
-            <a href={cv} download className="btn-ghost">{t('nav.cv')} ↓</a>
+            <a href={cv} download="Carol_Puentes_CV.pdf" className="btn-ghost">{t('nav.cv')} ↓</a>
           </div>
 
           <ul className="hero__meta">
