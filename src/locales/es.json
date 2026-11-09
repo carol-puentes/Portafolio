@@ -1,4 +1,10 @@
 {
+    "contact": {
+      "title": "¿Tienes un proyecto en mente?",
+      "titleEm": "Hablemos.",
+      "lead": "Estoy abierta a nuevas oportunidades, colaboraciones y proyectos freelance. Escríbeme por el canal que prefieras y te respondo pronto.",
+      "footer": "Hecho con React · Diseñado con cariño desde Neiva"
+    },
     "hero": {
       "eyebrow": "Ingeniera de software · Full Stack · UX/UI",
       "role": "Desarrolladora",
@@ -14,7 +20,8 @@
       "about": "Sobre Mí",
       "projects": "Mis Proyectos",
       "technologies": "Tecnologías",
-      "cv": "Descargar CV"
+      "cv": "Descargar CV",
+      "contact": "Contacto"
     },
     "tecnologis": {
       "title": "PILA DE TECNOLOGÍA"

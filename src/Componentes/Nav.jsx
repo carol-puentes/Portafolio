@@ -8,6 +8,7 @@ const links = [
   { href: '#welcome-section', key: 'nav.about' },
   { href: '#tecnologis', key: 'nav.technologies' },
   { href: '#proyectos', key: 'nav.projects' },
+  { href: '#contacto', key: 'nav.contact' },
 ];
 
 const Nav = () => {

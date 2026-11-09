@@ -3,6 +3,7 @@ import Nav from './Componentes/Nav';
 import About from './Componentes/About';
 import Tecnologis from './Componentes/Tecnologis';
 import Proyectos from './Componentes/Proyectos';
+import Contacto from './Componentes/Contacto';
 
 import Hero from './Componentes/Hero';
 
@@ -18,6 +19,7 @@ function App() {
       
       <Tecnologis/>
       <Proyectos />
+      <Contacto />
  
       
     </Router>
