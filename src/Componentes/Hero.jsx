@@ -1,29 +1,11 @@
-import { useRef } from 'react';
 import { useTranslation } from 'react-i18next';
 import '../css/hero.css';
 
-import foto from '../assets/derecha.png';
-import acuarela from '../assets/izquierda.png';
+import foto from '../assets/carol.jpg';
 import cv from '../CV/Carol_Puentes_CV.pdf';
 
 export default function Hero() {
   const { t } = useTranslation();
-  const wrapperRef = useRef(null);
-  const leftRef = useRef(null);
-  const dividerRef = useRef(null);
-
-  const setPosition = (percentage) => {
-    leftRef.current.style.clipPath = `inset(0 ${100 - percentage}% 0 0)`;
-    dividerRef.current.style.left = `${percentage}%`;
-  };
-
-  const onMove = (e) => {
-    const rect = wrapperRef.current.getBoundingClientRect();
-    const percentage = ((e.clientX - rect.left) / rect.width) * 100;
-    setPosition(Math.min(100, Math.max(0, percentage)));
-  };
-
-  const onReset = () => setPosition(50);
 
   return (
     <section className="hero">
@@ -41,27 +23,21 @@ export default function Hero() {
             <a href="#proyectos" className="btn-primary">{t('hero.ctaProjects')}</a>
             <a href={cv} download className="btn-ghost">{t('nav.cv')} ↓</a>
           </div>
+
+          <ul className="hero__meta">
+            <li><span>📍</span> Neiva, Colombia</li>
+            <li><span>💼</span> IndiGO Tech</li>
+            <li><span>🎓</span> {t('hero.study')}</li>
+          </ul>
         </div>
 
-        <figure className="hero__figure">
-          <div
-            className="image-wrapper"
-            ref={wrapperRef}
-            onMouseMove={onMove}
-            onMouseLeave={onReset}
-            onTouchMove={(e) => onMove(e.touches[0])}
-            onTouchEnd={onReset}
-          >
-            <img src={acuarela} className="image image-right" alt="" aria-hidden="true" />
-            <img ref={leftRef} src={foto} className="image image-left" alt="Carol Puentes" />
-            <div ref={dividerRef} className="divider">
-              <span className="handle">⇆</span>
-            </div>
+        <figure className="hero__photo">
+          <div className="hero__frame">
+            <img src={foto} alt="Carol Puentes" />
           </div>
-          <figcaption>
-            <span>← {t('hero.photo')}</span>
-            <span>{t('hero.watercolor')} →</span>
-          </figcaption>
+          <span className="chip chip--code">{'<dev/>'}</span>
+          <span className="chip chip--fs">Full Stack</span>
+          <span className="chip chip--ux">UX / UI</span>
         </figure>
       </div>
     </section>

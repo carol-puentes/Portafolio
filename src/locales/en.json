@@ -1,11 +1,10 @@
 {
     "hero": {
-      "eyebrow": "Software engineer · Full Stack",
+      "eyebrow": "Software engineer · Full Stack · UX/UI",
       "role": "Developer",
       "lead": "I build clear, useful software — from the backend to the interface — designed around the people who use it.",
       "ctaProjects": "See projects",
-      "photo": "Photo",
-      "watercolor": "Watercolor"
+      "study": "Software Development Specialization"
     },
     "about": {
       

@@ -1,11 +1,10 @@
 {
     "hero": {
-      "eyebrow": "Ingeniera de software · Full Stack",
+      "eyebrow": "Ingeniera de software · Full Stack · UX/UI",
       "role": "Desarrolladora",
       "lead": "Construyo software claro y útil — del backend a la interfaz — pensado en las personas que lo usan.",
       "ctaProjects": "Ver proyectos",
-      "photo": "Foto",
-      "watercolor": "Acuarela"
+      "study": "Especialización en Desarrollo de Software"
     },
     "about": {
       "title": "Hola, Soy Carol. Mucho gusto",    
